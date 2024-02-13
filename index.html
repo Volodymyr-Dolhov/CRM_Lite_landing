@@ -22,59 +22,59 @@
       content="http://crm-lite.com/media/logos/logo-short.svg"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="media/logos/logo-plain.svg" />
+    <link rel="icon" type="image/x-icon" href="media/logos/logo-short.svg" />
   </head>
   <body>
     <div class="container" id="home">
-      <header>
-        <div class="header-container">
-          <div class="logo" onclick="window.location.href='#home'"></div>
-          <nav onclick="">
-            <ul class="nav-list">
-              <li><a href="#key-features">Key Features</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#getting-started">Getting Started</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-            </ul>
-          </nav>
+      <div class="top-background">
+        <header>
+          <div class="header-container">
+            <div class="logo" onclick="window.location.href='#home'"></div>
+            <nav onclick="">
+              <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#key-features">Features</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+            </nav>
 
+            <button
+              class="contact-button-header"
+              onclick="window.location.href='#contact'"
+            >
+              Contact Us
+            </button>
+            <div class="burger-icon">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+        </header>
+
+        <section class="hero-container">
+          <h1 class="subtitle">
+            Simplify your finances, maximize your growth with
+            <span style="color: #a0fdbe">CRM Lite</span>
+          </h1>
+          <div class="hero-text-container">
+            <p class="description">
+              CRM Lite, your portable and<br />secure accounting solution.
+            </p>
+          </div>
           <button
-            class="contact-button-header"
+            class="contact-button"
             onclick="window.location.href='#contact'"
           >
-            Contact Us
+            <span>Contact Us</span>
           </button>
-          <div class="burger-icon">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-        </div>
-      </header>
+        </section>
 
-      <section class="hero-container">
-        <div class="block-name-container">
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <h2 class="title">Software Agency</h2>
-        </div>
-        <h1 class="subtitle">
-          Empowering businesses with
-          <span style="color: #1f1beb">accounting solution</span>
-        </h1>
-        <div class="hero-text-container">
-          <div>
-            <img
-              src="./media/shapes/88762421604f57701f0cd3c8fef23c7e.gif"
-              alt="spiningn cube"
-              style="height: 280px"
-            />
-          </div>
-          <p class="description">
-            Welcome to CRM Lite, your portable and secure accounting solution.
+        <section class="about-container" id="about">
+          <h1>About System</h1>
+          <p class="title">
             At InfinityTech, we're proud to introduce CRM Lite, a revolutionary
             accounting system designed for businesses prioritizing security and
             mobility. Our cutting-edge technology ensures that your financial
@@ -82,209 +82,131 @@
             connectivity. Experience the convenience of a powerful accounting
             system right from your USB drive.
           </p>
-        </div>
-        <button
-          class="contact-button"
-          onclick="window.location.href='#contact'"
-        >
-          <span>Contact Us</span>
-        </button>
-      </section>
+        </section>
+      </div>
 
-      <section class="key-features-container" id="key-features">
-        <div class="block-name-container" style="justify-content: start">
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <h2 class="title">Key Features</h2>
-        </div>
-        <div class="key-features-container-first">
-          <div class="key-features-first">
-            <h1 class="subtitle">
-              Your business's
-              <span style="color: #1f1beb">technological advancement</span>
-              is our priority
-            </h1>
+      <div class="midle-background">
+        <section class="key-features-container" id="key-features">
+          <div class="block-name-container" style="justify-content: start">
+            <h2 class="title">Key Features</h2>
           </div>
-          <div class="key-features-second">
-            <p>
-              At InfinityTech Enterprise Solutions (ITES), we specialize in
-              creating bespoke enterprise solutions that align with your unique
-              business needs. Our commitment is to provide innovative,
-              cost-effective technology that drives sustainable growth and
-              efficiency. Discover the future of business technology, perfectly
-              fitted to your enterprise's demands.
-            </p>
-          </div>
-        </div>
-        <div class="key-features-container-third">
-          <div class="key-features-container-fourth">
-            <div class="key-features-card-1">
-              <h1>Security Without Compromise</h1>
-              <p>
-                With CRM Lite, enjoy the peace of mind that comes with top-tier
-                security features. Your data stays protected, accessible only to
-                you, without ever needing to connect to the internet.
-              </p>
+          <div class="key-features-container-third">
+            <div class="key-features-container-fourth">
+              <div class="key-features-card-1">
+                <h1>Security Without Compromise</h1>
+                <p>
+                  With CRM Lite, enjoy the peace of mind that comes with
+                  top-tier security features. Your data stays protected,
+                  accessible only to you, without ever needing to connect to the
+                  internet.
+                </p>
+              </div>
+              <div class="key-features-card-2">
+                <h1>Unmatched Portability</h1>
+                <p>
+                  Launch CRM Lite directly from a USB drive, making your
+                  accounting system truly mobile. Wherever your business takes
+                  you, your financial data is just a USB slot away.
+                </p>
+              </div>
             </div>
-            <div class="key-features-card-2">
-              <h1>Unmatched Portability</h1>
-              <p>
-                Launch CRM Lite directly from a USB drive, making your
-                accounting system truly mobile. Wherever your business takes
-                you, your financial data is just a USB slot away.
-              </p>
+            <div class="key-features-container-fifth">
+              <div class="key-features-card-3">
+                <h1>Simplified Accounting</h1>
+                <p>
+                  Streamline your financial management with an intuitive web
+                  interface designed for ease of use. Manage invoices, track
+                  expenses, and generate reports effortlessly.
+                </p>
+              </div>
+              <div class="key-features-card-4">
+                <h1>Offline Functionality</h1>
+                <p>
+                  Full offline access ensures your operations continue
+                  uninterrupted, regardless of internet availability, enhancing
+                  reliability and productivity.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="key-features-container-fifth">
-            <div class="key-features-card-3">
-              <h1>Simplified Accounting</h1>
-              <p>
-                Streamline your financial management with an intuitive web
-                interface designed for ease of use. Manage invoices, track
-                expenses, and generate reports effortlessly.
-              </p>
-            </div>
-            <div class="key-features-card-4">
-              <h1>Offline Functionality</h1>
-              <p>
-                Full offline access ensures your operations continue
-                uninterrupted, regardless of internet availability, enhancing
-                reliability and productivity.
-              </p>
+            <div class="key-features-container-sixth">
+              <div class="key-features-card-5">
+                <h1 class="subtitle">
+                  Excellence through
+                  <span style="color: #1f1beb">expertise</span><br />&
+                  <span style="color: #1f1beb">innovation</span>
+                </h1>
+              </div>
+              <div class="key-features-card-6">
+                <h1>Fast Setup, Easy Use</h1>
+                <p>
+                  Get started in minutes with a plug-and-play solution that
+                  simplifies accounting tasks without the need for extensive
+                  setup or training.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="key-features-container-sixth">
-            <div class="key-features-card-5">
-              <h1 class="subtitle">
-                Excellence through
-                <span style="color: #1f1beb">expertise</span><br />&
-                <span style="color: #1f1beb">innovation</span>
-              </h1>
-            </div>
-            <div class="key-features-card-6">
-              <h1>Fast Setup, Easy Use</h1>
-              <p>
-                Get started in minutes with a plug-and-play solution that
-                simplifies accounting tasks without the need for extensive setup
-                or training.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="benefits-container" id="benefits">
-        <div class="block-name-container">
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <h2 class="title">Benefits</h2>
-        </div>
-        <div class="benefits-subcontainer">
-          <div class="benefits-row-one">
-            <div class="benefits-card">
-              <h1>Enhanced Data Security</h1>
-              <p>
-                Keep your sensitive financial information secure with a system
-                that doesn't rely on internet connectivity to function.
-              </p>
+        <section class="benefits-container" id="benefits">
+          <div class="block-name-container">
+            <h2 class="title">Benefits</h2>
+          </div>
+          <div class="benefits-subcontainer">
+            <div class="benefits-row-one">
+              <div class="benefits-card">
+                <h1>Enhanced<br>Data Security</h1>
+                <p>
+                  Keep your sensitive financial information secure with a system
+                  that doesn't rely on internet connectivity to function.
+                </p>
+              </div>
+              <div class="benefits-card">
+                <h1>Operational<br>Flexibility</h1>
+                <p>
+                  Operate your accounting tasks from anywhere, at any time,
+                  without the need for online access, providing unparalleled
+                  flexibility.
+                </p>
+              </div>
+              <div class="benefits-card">
+                <h1>Cost-Effective<br>Solution</h1>
+                <p>
+                  Avoid the costs associated with online platforms and cloud
+                  services with a one-time investment in CRM Lite.
+                </p>
+              </div>
             </div>
-            <div class="benefits-card">
-              <h1>Operational Flexibility</h1>
-              <p>
-                Operate your accounting tasks from anywhere, at any time,
-                without the need for online access, providing unparalleled
-                flexibility.
-              </p>
-            </div>
-            <div class="benefits-card">
-              <h1>Cost-Effective Solution</h1>
-              <p>
-                Avoid the costs associated with online platforms and cloud
-                services with a one-time investment in CRM Lite.
-              </p>
+            <div class="benefits-row-two">
+              <div class="benefits-card">
+                <h1>Efficient Financial<br>Management</h1>
+                <p>
+                  Enjoy the benefits of a comprehensive accounting system,
+                  including invoicing, expense tracking, and financial
+                  reporting, tailored for ease and efficiency.
+                </p>
+              </div>
+              <div class="benefits-card">
+                <h1>Seamless<br>Scalability</h1>
+                <p>
+                  Grow your business without the hassle of changing accounting
+                  systems. CRM Lite adapts to your evolving needs, ensuring a
+                  consistent and reliable experience.
+                </p>
+              </div>
+              <div class="benefits-card">
+                <h1>Real-Time<br>Financial Insights</h1>
+                <p>
+                  CRM Lite offers immediate access to your financial data,
+                  enabling informed and timely business decisions directly from
+                  your USB drive. This enhances strategic planning and
+                  operational efficiency with on-the-go insights.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="benefits-row-two">
-            <div class="benefits-card">
-              <h1>Efficient Financial Management</h1>
-              <p>
-                Enjoy the benefits of a comprehensive accounting system,
-                including invoicing, expense tracking, and financial reporting,
-                tailored for ease and efficiency.
-              </p>
-            </div>
-            <div class="benefits-card">
-              <h1>Seamless Scalability</h1>
-              <p>
-                Grow your business without the hassle of changing accounting
-                systems. CRM Lite adapts to your evolving needs, ensuring a
-                consistent and reliable experience.
-              </p>
-            </div>
-            <div class="benefits-card">
-              <h1>Real-Time Financial Insights</h1>
-              <p>
-                CRM Lite offers immediate access to your financial data,
-                enabling informed and timely business decisions directly from
-                your USB drive. This enhances strategic planning and operational
-                efficiency with on-the-go insights.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- <section class="services-container" id="services">
-        <div class="block-name-container">
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <div class="arrow-right"></div>
-          <h2 class="title">Services</h2>
-        </div>
-        <div class="services-subcontainer">
-          <div class="services-cardcontainer">
-            <div class="services-card">
-              <h1>Bespoke<br />CRM Systems</h1>
-              <p>
-                Tailor-made Customer Relationship Management systems that
-                streamline interactions, improve customer satisfaction, and
-                drive sales.
-              </p>
-            </div>
-            <div class="services-card">
-              <h1>Advanced<br />ERP Solutions</h1>
-              <p>
-                Efficient Enterprise Resource Planning systems designed to
-                optimize your business operations, from supply chain management
-                to financial tracking.
-              </p>
-            </div>
-          </div>
-          <div class="services-cardcontainer">
-            <div class="services-card">
-              <h1>Comprehensive<br />Accounting Systems</h1>
-              <p>
-                Developing robust accounting solutions for accurate financial
-                management, streamlined bookkeeping, and regulatory compliance,
-                tailored to your business's financial needs.
-              </p>
-            </div>
-            <div class="services-card">
-              <h1>IT Consultancy<br />& Support</h1>
-              <p>
-                Offering expert guidance and continuous support to ensure your
-                technology aligns with your business objectives and operates
-                seamlessly.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> -->
+        </section>
+      </div>
     </div>
 
     <section class="contact-container" id="contact">
