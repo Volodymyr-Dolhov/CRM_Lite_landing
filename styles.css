@@ -441,7 +441,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 12px;
   margin-bottom: 140px;
 }
 
@@ -450,7 +450,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 80px;
 }
 
 .key-features-container-fifth {
@@ -458,15 +458,22 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 80px;
 }
 
 .key-features-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: 2;
-  width: 400px;
-  background-color: #e8e8df;
-  border-radius: 30px;
-  min-height: 480px;
+  height: 504px;
+  width: 498px;
+  background-image: url("./media/backgrounds/polygon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0 2rem;
 }
 
 .key-features-card h1 {
@@ -474,14 +481,16 @@ header {
   line-height: 40px;
   font-weight: 600;
   line-height: 28px;
-  padding: 2rem 3rem 0 3rem;
+  padding: 0 4rem;
+  text-align: center;
 }
 
 .key-features-card p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 300;
-  padding: 0 3rem 2rem 3rem;
+  padding: 0 4rem;
+  text-align: center;
 }
 
 .services-subcontainer {
