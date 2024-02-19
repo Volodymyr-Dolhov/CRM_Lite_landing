@@ -258,7 +258,7 @@ header {
 }
 
 .contact-button-header:hover {
-  background-color: #1f1beb;
+  box-shadow: 0px 2px 18px 3px #D8F9E3;
   transition: 0.5s ease-in;
 }
 
@@ -268,13 +268,14 @@ header {
 
 .contact-button {
   position: relative;
-  width: 302px;
-  height: 52px;
-  padding: 10px 20px;
+  width: 328px;
+  height: 62px;
+  padding: 10px, 20px, 10px, 20px;
   border-radius: 24px;
   background: #a0fdbe;
   color: #000000;
-  font-size: 18px;
+  font-size: 28px;
+  line-height: 42px;
   font-weight: 600;
   line-height: normal;
   border: none;
@@ -290,22 +291,9 @@ header {
   z-index: 2;
 }
 
-.contact-button::before {
-  --size: 0;
-  content: "";
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  width: var(--size);
-  height: var(--size);
-  background: radial-gradient(circle closest-side, #1f1beb, transparent);
-  transform: translate(-50%, -50%);
-  transition: width 0.2s ease, height 0.2s ease;
-  z-index: 0;
-}
-
-.contact-button:hover::before {
-  --size: 200px;
+.contact-button:hover {
+  box-shadow: 0px 2px 18px 3px #D8F9E3;
+  transition: 0.5s ease-in;
 }
 
 .top-background {
@@ -462,18 +450,27 @@ header {
 }
 
 .key-features-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex: 2;
-  height: 504px;
+  height: 498px;
   width: 498px;
   background-image: url("./media/backgrounds/polygon.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   padding: 0 2rem;
+}
+
+.key-features-card:hover {
+  background-image: url("./media/backgrounds/polygon-hover.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: 0.5s ease-in-out;
 }
 
 .key-features-card h1 {
@@ -692,7 +689,6 @@ header {
 .benefits-card {
   background-color: transparent;
   border-color: var(--cadet-blue);
-  border-radius: 16px;
   height: 526px;
   width: 526px;
   padding: 0 2.5rem;
@@ -738,13 +734,6 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
-
-.benefits-card:hover {
-  box-shadow: 10px 10px 15px 0px #00000026;
-  border-color: transparent;
-  transition: 0.3s ease-in-out;
-  background: #ececec5e;
 }
 
 .benefits-card h1 {
