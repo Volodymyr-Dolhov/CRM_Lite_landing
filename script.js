@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     keyPath.forEach(key => {
                         translation = translation[key]; // Drill down to the nested value
                     });
-                    el.textContent = translation;
+                    el.innerHTML = translation;
                 });
             })
             .catch(error => console.error('Error loading the translation file:', error));
