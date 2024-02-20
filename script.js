@@ -232,9 +232,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     });
                     el.textContent = translation;
                 });
-                // Update the language button text
-                const languageButtonText = lang === 'el' ? 'English' : 'Ελληνικά';
-                document.querySelector('.language-button').textContent = languageButtonText;
             })
             .catch(error => console.error('Error loading the translation file:', error));
     }
@@ -245,5 +242,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.language-button').addEventListener('click', () => {
         currentLang = currentLang === 'el' ? 'en' : 'el'; // Toggle language
         loadTranslations(currentLang);
+        document.body.setAttribute('lang', currentLang); // Update the lang attribute of the body
     });
 });
