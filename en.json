@@ -12,5 +12,12 @@
     "about_section": {
         "title": "About Sysytem",
         "description": "At InfinityTech, we're proud to introduce CRM Lite, a revolutionary accounting system designed for businesses prioritizing security and mobility. Our cutting-edge technology ensures that your financial data is accessible and secure, without the need for internet connectivity. Experience the convenience of a powerful accounting system right from your USB drive."
+    },
+    "key_features": {
+        "title": "Key Features",
+        "card1": {
+            "title": "Security Without Compromise",
+            "description": "With CRM Lite, enjoy the peace of mind that comes with top-tier security features. Your data stays protected, accessible only to you, without ever needing to connect to the internet."
+        }
     }
 }

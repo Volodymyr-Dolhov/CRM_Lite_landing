@@ -23,6 +23,20 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="media/logos/logo-short.svg" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-V9NEC843TM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-V9NEC843TM");
+    </script>
   </head>
   <body>
     <div class="container" id="home">
@@ -82,7 +96,7 @@
       <div class="midle-background">
         <section class="key-features-container" id="key-features">
           <div class="block-name-container" style="justify-content: start">
-            <h2 class="title">Key Features</h2>
+            <h2 class="title" data-translate="key_features.title"></h2>
           </div>
           <div class="key-features-container-third">
             <div class="key-features-container-fourth">
@@ -92,13 +106,8 @@
                   alt="Security Icon"
                   class="key-features-icon"
                 />
-                <h1>Security Without Compromise</h1>
-                <p>
-                  With CRM Lite, enjoy the peace of mind that comes with
-                  top-tier security features. Your data stays protected,
-                  accessible only to you, without ever needing to connect to the
-                  internet.
-                </p>
+                <h1 data-translate="key_features.card1.title"></h1>
+                <p data-translate="key_features.card1.description"></p>
               </div>
               <div class="key-features-card">
                 <img
