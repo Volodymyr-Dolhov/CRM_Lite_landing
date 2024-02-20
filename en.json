@@ -18,6 +18,22 @@
         "card1": {
             "title": "Security Without Compromise",
             "description": "With CRM Lite, enjoy the peace of mind that comes with top-tier security features. Your data stays protected, accessible only to you, without ever needing to connect to the internet."
+        },
+        "card2": {
+            "title": "Unmatched Portability",
+            "description": "Launch CRM Lite directly from a USB drive, making your accounting system truly mobile. Wherever your business takes you, your financial data is just a USB slot away."
+        },
+        "card3": {
+            "title": "Simplified Accounting",
+            "description": "Streamline your financial management with an intuitive web interface designed for ease of use. Manage invoices, track expenses, and generate reports effortlessly."
+        },
+        "card4": {
+            "title": "Offline Functionality",
+            "description": "Full offline access ensures your operations continue uninterrupted, regardless of internet availability, enhancing reliability and productivity."
+        },
+        "card5": {
+            "title": "Fast Setup, Easy Use",
+            "description": "Get started in minutes with a plug-and-play solution that simplifies accounting tasks without the need for extensive setup or training."
         }
     }
 }
