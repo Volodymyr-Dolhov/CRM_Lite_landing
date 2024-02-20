@@ -17,19 +17,10 @@
   --font-size-xxxl: 36px;
   --font-size-xxxxl: 44px;
   --font-size-xxxxxl: 48px;
-  --font-family-montserrat: "Montserrat", Helvetica;
-  --font-family-montserrat_alternates: "Montserrat Alternates", Helvetica;
-  --font-family-poppins: "Poppins", Helvetica;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("./media/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
-    format("truetype");
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
