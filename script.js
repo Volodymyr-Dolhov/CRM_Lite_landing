@@ -242,5 +242,4 @@ document
         const newLang = currentLang === "el" ? "en" : "el";
         loadTranslations(newLang);
         document.body.setAttribute("lang", newLang);
-        this.textContent = newLang === "el" ? "English" : "Ελληνικά"; // Update button text
     });
