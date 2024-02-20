@@ -219,27 +219,31 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Function to load and apply translations
-function loadTranslations(lang) {
-    fetch(`${lang}.json`)
-        .then((response) => response.json())
-        .then((translations) => {
-            document.querySelectorAll("[data-translate]").forEach((el) => {
-                const key = el.getAttribute("data-translate");
-                el.textContent = translations[key];
-            });
-        });
-}
+document.addEventListener('DOMContentLoaded', function () {
+    function loadTranslations(lang) {
+        fetch(`${lang}.json`)
+            .then(response => response.json())
+            .then(translations => {
+                document.querySelectorAll('[data-translate]').forEach(el => {
+                    const keyPath = el.getAttribute('data-translate').split('.'); // Split the key by dot to get path
+                    let translation = translations;
+                    keyPath.forEach(key => {
+                        translation = translation[key]; // Drill down to the nested value
+                    });
+                    el.textContent = translation;
+                });
+                // Update the language button text
+                const languageButtonText = lang === 'el' ? 'English' : 'Ελληνικά';
+                document.querySelector('.language-button').textContent = languageButtonText;
+            })
+            .catch(error => console.error('Error loading the translation file:', error));
+    }
 
-// Initial load in Greek
-loadTranslations("el");
+    let currentLang = document.body.getAttribute('lang') || 'el'; // Default to Greek if not set
+    loadTranslations(currentLang);
 
-// Add event listener to the language toggle button
-document
-    .querySelector(".language-button")
-    .addEventListener("click", function () {
-        const currentLang = document.body.getAttribute("lang");
-        const newLang = currentLang === "el" ? "en" : "el";
-        loadTranslations(newLang);
-        document.body.setAttribute("lang", newLang);
+    document.querySelector('.language-button').addEventListener('click', () => {
+        currentLang = currentLang === 'el' ? 'en' : 'el'; // Toggle language
+        loadTranslations(currentLang);
     });
+});
