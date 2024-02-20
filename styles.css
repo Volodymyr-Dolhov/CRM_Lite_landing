@@ -258,7 +258,7 @@ header {
 }
 
 .contact-button-header:hover {
-  box-shadow: 0px 2px 18px 3px #D8F9E3;
+  box-shadow: 0px 2px 18px 3px #d8f9e3;
   transition: 0.5s ease-in;
 }
 
@@ -292,8 +292,23 @@ header {
 }
 
 .contact-button:hover {
-  box-shadow: 0px 2px 18px 3px #D8F9E3;
+  box-shadow: 0px 2px 18px 3px #d8f9e3;
   transition: 0.5s ease-in;
+}
+
+.header-sub-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.language-button {
+  width: 32px;
+  height: 32px;
+  background-image: url("./media/shapes/globe.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
 }
 
 .top-background {
@@ -438,7 +453,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 80px;
 }
 
 .key-features-container-fifth {
@@ -446,7 +460,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 80px;
 }
 
 .key-features-card {
@@ -462,6 +475,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  
   padding: 0 2rem;
 }
 
@@ -835,7 +849,7 @@ header {
 
 .submit-button {
   border: none;
-  background-color: #A0FDBE;
+  background-color: #a0fdbe;
   border-radius: 24px;
   height: 62px;
   cursor: pointer;
@@ -854,9 +868,8 @@ header {
 }
 
 .submit-button:hover {
-  background-color: #1f1beb;
+  box-shadow: 0px 2px 18px 3px #d8f9e3;
   transition: 0.5s ease-in;
-  color: #fff;
 }
 
 #contact-form {
@@ -866,11 +879,11 @@ header {
 }
 
 #contact-form input::placeholder {
-  color: #AAB2CA;
+  color: #aab2ca;
 }
 
 #contact-form textarea::placeholder {
-  color: #AAB2CA;
+  color: #aab2ca;
 }
 
 .contact-image-container {
