@@ -5,7 +5,7 @@
     "how_it_works": "How It Works",
     "contact_us": "Contact Us",
     "hero": {
-        "subtitle": "Simplify your finances, maximize your growth with CRM Lite",
+        "subtitle": "Simplify your finances, maximize your growth with <span style='color: #a0fdbe'>CRM Lite</span>",
         "description": "CRM Lite, your portable and<br>secure accounting solution.",
         "contact_us": "Contact Us"
     },
