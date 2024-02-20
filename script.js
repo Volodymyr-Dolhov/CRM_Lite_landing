@@ -218,3 +218,29 @@ window.addEventListener('scroll', () => {
         carousel.style.transform = `translateX(${translateXMovement}px)`;
     }
 });
+
+// Function to load and apply translations
+function loadTranslations(lang) {
+    fetch(`${lang}.json`)
+        .then((response) => response.json())
+        .then((translations) => {
+            document.querySelectorAll("[data-translate]").forEach((el) => {
+                const key = el.getAttribute("data-translate");
+                el.textContent = translations[key];
+            });
+        });
+}
+
+// Initial load in Greek
+loadTranslations("el");
+
+// Add event listener to the language toggle button
+document
+    .querySelector(".language-button")
+    .addEventListener("click", function () {
+        const currentLang = document.body.getAttribute("lang");
+        const newLang = currentLang === "el" ? "en" : "el";
+        loadTranslations(newLang);
+        document.body.setAttribute("lang", newLang);
+        this.textContent = newLang === "el" ? "English" : "Ελληνικά"; // Update button text
+    });
