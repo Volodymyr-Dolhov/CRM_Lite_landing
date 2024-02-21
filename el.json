@@ -71,5 +71,12 @@
     },
     "faq_section": {
         "title": "Συχνές Ερωτήσεις"
+    },
+    "contact_section": {
+        "your_name": "Το Όνομά σας",
+        "your_email": "Το Email σας",
+        "subject": "Θέμα",
+        "your_message": "Το Μήνυμά σας",
+        "send": "Αποστολή"
     }
 }

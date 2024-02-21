@@ -71,5 +71,12 @@
     },
     "faq_section": {
         "title": "FAQs"
+    },
+    "contact_section": {
+        "your_name": "Your Name",
+        "your_email": "Your Email",
+        "subject": "Subject",
+        "your_message": "Your Message",
+        "send": "Send"
     }
 }
