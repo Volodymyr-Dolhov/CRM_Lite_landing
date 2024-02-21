@@ -230,7 +230,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     keyPath.forEach(key => {
                         translation = translation[key]; // Drill down to the nested value
                     });
-                    el.innerHTML = translation;
+                    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                        el.setAttribute('placeholder', translation);
+                    } else {
+                        el.innerHTML = translation;
+                    }
                 });
             })
             .catch(error => console.error('Error loading the translation file:', error));
