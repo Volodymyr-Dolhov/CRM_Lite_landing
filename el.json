@@ -78,5 +78,12 @@
         "subject": "Θέμα",
         "your_message": "Το Μήνυμά σας",
         "send": "Αποστολή"
+    },
+    "footer": {
+        "contacts": "Επικοινωνία",
+        "address": "Διεύθυνση: Χαρ. Τρικούπη 6, Πιρέας 185 36",
+        "phone": "Τηλέφωνο",
+        "email": "Email: info@crm-lite.com",
+        "website": "Ιστοσελίδα: crm-lite.com"
     }
 }

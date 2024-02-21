@@ -78,5 +78,12 @@
         "subject": "Subject",
         "your_message": "Your Message",
         "send": "Send"
+    },
+    "footer": {
+        "contacts": "Contacts",
+        "address": "Address: Char. Trikoupi 6, Pireas 185 36",
+        "phone": "Phone",
+        "email": "Email: info@crm-lite.com",
+        "website": "Website: crm-lite.com"
     }
 }
