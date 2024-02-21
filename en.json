@@ -35,5 +35,41 @@
             "title": "Fast Setup, Easy Use",
             "description": "Get started in minutes with a plug-and-play solution that simplifies accounting tasks without the need for extensive setup or training."
         }
+    },
+    "benefits_section": {
+        "title": "Benefits",
+        "card1": {
+            "title": "Enhanced<br />Data Security",
+            "description": "Keep your sensitive financial information secure with a system that doesn't rely on internet connectivity to function."
+        },
+        "card2": {
+            "title": "Operational<br />Flexibility",
+            "description": "Operate your accounting tasks from anywhere, at any time, without the need for online access, providing unparalleled flexibility."
+        },
+        "card3": {
+            "title": "Cost-Effective<br />Solution",
+            "description": "Avoid the costs associated with online platforms and cloud services with a one-time investment in CRM Lite."
+        },
+        "card4": {
+            "title": "Efficient Financial<br />Management",
+            "description": "Enjoy the benefits of a comprehensive accounting system, including invoicing, expense tracking, and financial reporting, tailored for ease and efficiency."
+        },
+        "card5": {
+            "title": "Seamless<br />Scalability",
+            "description": "Grow your business without the hassle of changing accounting systems. CRM Lite adapts to your evolving needs, ensuring a consistent and reliable experience."
+        },
+        "card6": {
+            "title": "Real-Time<br />Financial Insights",
+            "description": "CRM Lite offers immediate access to your financial data, enabling informed and timely business decisions directly from your USB drive. This enhances strategic planning and operational efficiency with on-the-go insights."
+        }
+    },
+    "hiw_section": {
+        "title": "How It works"
+    },
+    "gs_section": {
+        "title": "Getting Started"
+    },
+    "faq_section": {
+        "title": "FAQs"
     }
 }
