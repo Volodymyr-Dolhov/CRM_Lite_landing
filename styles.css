@@ -134,7 +134,7 @@ header {
 .scrolled.header-container {
   position: fixed;
   top: 10px;
-  right: calc(50% - 490.5px);
+  right: calc(50% - 530.5px);
   transition: 0.5s ease-out;
   display: flex;
   width: 981px;
@@ -464,7 +464,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  
+
   padding: 0 2rem;
 }
 
@@ -658,7 +658,7 @@ header {
 .carousel-item {
   border-radius: 16px;
   width: 640px;
-  /* height: 384px; */
+  height: 384px;
   flex-shrink: 0;
 }
 
@@ -773,11 +773,42 @@ header {
   padding: 0 2rem;
 }
 
+.faq-items-container {
+  max-width: 1080px;
+  margin: 6rem 0;
+}
+
 .faq-container {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.faq-item {
+  margin-bottom: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid #FFFFFF33;
+}
+
+.faq-question {
+  cursor: pointer;
+  position: relative;
+  font-size: 28px;
+  padding-right: 30px; /* Make room for the toggle symbol */
+}
+
+.faq-answer {
+  font-size: 20px;
+  display: none;
+  padding-top: 10px;
+}
+
+.faq-toggle {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 40px;
 }
 
 .contact-container {

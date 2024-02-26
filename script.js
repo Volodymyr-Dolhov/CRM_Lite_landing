@@ -249,3 +249,15 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.setAttribute('lang', currentLang); // Update the lang attribute of the body
     });
 });
+
+function toggleFaq(element) {
+    var answer = element.nextElementSibling;
+    if (answer.style.display === 'block') {
+      answer.style.display = 'none';
+      element.querySelector('.faq-toggle').textContent = '+';
+    } else {
+      answer.style.display = 'block';
+      element.querySelector('.faq-toggle').textContent = '-';
+    }
+  }
+  
