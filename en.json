@@ -72,39 +72,39 @@
     "faq_section": {
         "title": "FAQs",
         "item1": {
-            "question": "What is CRM Lite?",
+            "question": "What is CRM Lite?<span class='faq-toggle'>+</span>",
             "answer": "CRM Lite is a portable, secure accounting system that operates from a USB drive, offering comprehensive financial management capabilities without the need for internet connectivity."
         },
         "item2": {
-            "question": "How do I install CRM Lite?",
+            "question": "How do I install CRM Lite?<span class='faq-toggle'>+</span>",
             "answer": "Simply plug the CRM Lite USB drive into your computer, and start the application. No additional installation is required."
         },
         "item3": {
-            "question": "Can I use CRM Lite on multiple computers?",
+            "question": "Can I use CRM Lite on multiple computers?<span class='faq-toggle'>+</span>",
             "answer": "Yes, CRM Lite can be used on any computer with a USB port, making it an ideal solution for businesses needing access to their financial data across multiple locations or devices."
         },
         "item4": {
-            "question": "Does CRM Lite require internet access to work?",
+            "question": "Does CRM Lite require internet access to work?<span class='faq-toggle'>+</span>",
             "answer": "No, CRM Lite is designed to function entirely offline, ensuring your financial data is accessible and secure without an internet connection."
         },
         "item5": {
-            "question": "How secure is CRM Lite?",
+            "question": "How secure is CRM Lite?<span class='faq-toggle'>+</span>",
             "answer": "CRM Lite features advanced security protocols to protect your financial data, including encryption and password protection, ensuring your information remains confidential and secure. The is fully isolated and doest store any data anywhere except for the USB drive."
         },
         "item6": {
-            "question": "Can I back up my financial data with CRM Lite?",
+            "question": "Can I back up my financial data with CRM Lite?<span class='faq-toggle'>+</span>",
             "answer": "Yes, CRM Lite allows for easy data backup. We recommend regularly backing up your data to another secure location to ensure data recovery in case of USB drive loss or damage."
         },
         "item7": {
-            "question": "What kind of financial tasks can I manage with CRM Lite?",
+            "question": "What kind of financial tasks can I manage with CRM Lite?<span class='faq-toggle'>+</span>",
             "answer": "CRM Lite enables you to manage a wide range of financial tasks, including invoicing, expense tracking, financial reporting, and more, all through its user-friendly web interface."
         },
         "item8": {
-            "question": "Is CRM Lite suitable for my industry?",
+            "question": "Is CRM Lite suitable for my industry?<span class='faq-toggle'>+</span>",
             "answer": "CRM Lite is versatile and designed to cater to various industries, from small businesses to freelancers who require a reliable and secure accounting solution."
         },
         "item9": {
-            "question": "How can I get support for CRM Lite?",
+            "question": "How can I get support for CRM Lite?<span class='faq-toggle'>+</span>",
             "answer": "For support, please contact our customer service team through our website or by email. We offer comprehensive support to ensure you can maximize the use of CRM Lite for your business needs."
         }
     },
