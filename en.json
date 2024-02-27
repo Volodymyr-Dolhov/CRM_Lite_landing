@@ -67,7 +67,10 @@
         "title": "How It works"
     },
     "gs_section": {
-        "title": "Getting Started"
+        "title": "Getting Started",
+        "sub_title": "Whould you like to discover more<br />about CRM Lite ?",
+        "description": "Optimize CRM Lite effectiveness<br />by adhering to these guidelines<br /> for efficient usage and<br />enhanced customer<br />engagement.",
+        "btn_description": "See guidelines"
     },
     "faq_section": {
         "title": "FAQs",
