@@ -1094,6 +1094,11 @@ footer {
     width: unset;
   }
 
+  .about-container p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
   .hero-container .block-name-container {
     padding: unset;
     margin-bottom: 40px;
@@ -1200,6 +1205,7 @@ footer {
     padding: 0;
     height: 398px;
     width: 100%;
+    margin-bottom: 24px;
   }
 
   .key-features-card h1 {
@@ -1287,21 +1293,23 @@ footer {
   }
 
   .benefits-row-one {
-    display: block;
+    flex-direction: column;
     padding: 0 1rem;
-    margin-bottom: unset;
+    margin-bottom: 24px;
   }
 
   .benefits-row-two {
-    display: block;
+    flex-direction: column;
     padding: 0 1rem;
     margin-bottom: 40px;
   }
 
   .benefits-card {
-    padding: 0 1rem;
+    padding: 1rem;
     margin-bottom: 1rem;
     height: unset;
+    background-position: unset !important;
+    background-size: unset !important;
   }
 
   .benefits-card h1 {
