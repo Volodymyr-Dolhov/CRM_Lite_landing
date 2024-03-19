@@ -1292,6 +1292,10 @@ footer {
     border: unset;
   }
 
+  .benefits-container {
+    padding: 0;
+  }
+
   .benefits-row-one {
     flex-direction: column;
     padding: 0 1rem;
@@ -1308,6 +1312,7 @@ footer {
     padding: 1rem;
     margin-bottom: 1rem;
     height: unset;
+    width: unset;
     background-position: unset !important;
     background-size: unset !important;
   }
@@ -1323,6 +1328,18 @@ footer {
     width: unset;
     line-height: 28px;
     font-size: 20px;
+  }
+
+  .hiw-container {
+    padding: 0;
+  }
+  
+  .faq-container {
+    padding: 0;
+  }
+
+  .faq-items-container {
+    padding: 0 1rem;
   }
 
   .carousel-item {
