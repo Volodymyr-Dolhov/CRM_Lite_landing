@@ -1086,6 +1086,14 @@ footer {
     background-repeat: no-repeat;
   }
 
+  .hero-container {
+    width: unset;
+  }
+
+  .about-container {
+    width: unset;
+  }
+
   .hero-container .block-name-container {
     padding: unset;
     margin-bottom: 40px;
@@ -1162,6 +1170,10 @@ footer {
     display: block;
   }
 
+  .key-features-container {
+    padding: 0;
+  }
+
   .key-features-container-first {
     padding: 1rem;
     display: block;
@@ -1176,41 +1188,29 @@ footer {
     line-height: 32px;
   }
 
-  .key-features-container-third {
-    flex-direction: column-reverse;
-    margin-bottom: unset;
-    padding: 1rem;
-    margin-bottom: 40px;
+  .key-features-container-fourth {
+    display: block;
   }
 
-  .key-features-card-1,
-  .key-features-card-2,
-  .key-features-card-3,
-  .key-features-card-4,
-  .key-features-card-5,
-  .key-features-card-6 {
-    width: unset;
-    min-height: unset;
+  .key-features-container-fifth {
+    display: block;
   }
 
-  .key-features-card-3 h1 {
-    padding: 2rem 3rem 0 3rem;
+  .key-features-card {
+    padding: 0;
+    height: 398px;
+    width: 100%;
   }
 
-  .key-features-card-4 p {
-    font-size: 20px;
+  .key-features-card h1 {
+    font-size: 24px;
+    line-height: 26px;
   }
 
-  .key-features-card-4 h1 {
-    font-size: 32px;
-  }
-
-  .key-features-card-6 p {
-    font-size: 20px;
-  }
-
-  .key-features-card-6 h1 {
-    font-size: 32px;
+  .key-features-card p {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .services-subcontainer {
