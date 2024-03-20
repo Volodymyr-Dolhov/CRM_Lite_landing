@@ -1079,13 +1079,16 @@ footer {
     display: block;
   }
 
+  .top-background {
+    padding-top: 12px;
+  }
+
   .slide-in-right {
     transform: translateX(-50%);
   }
 
   .header-container {
     display: flex;
-    margin: 12px auto;
     padding: 14px 20px;
     justify-content: space-between;
     border-radius: 1900.8px;
@@ -1101,8 +1104,7 @@ footer {
 
   .header-container .logo {
     margin-right: 1rem;
-    width: 124px;
-    height: 32px;
+    width: 154px;
     background-image: url("./media/logos/logo-short.svg");
     background-repeat: no-repeat;
   }
@@ -1403,6 +1405,10 @@ footer {
 
   .faq-question {
     font-size: 18px;
+  }
+
+  .faq-answer {
+    font-size: 16px;
   }
 
   .faq-toggle {
